@@ -1,5 +1,5 @@
 {
-    "name": "phpunit/phpunit",
+    "name": "niko9911/phpunit",
     "description": "The PHP Unit Testing framework.",
     "type": "library",
     "keywords": [
