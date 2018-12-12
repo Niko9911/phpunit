@@ -35,10 +35,10 @@ Time: %s, Memory: %s
 There were 2 skipped tests:
 
 1) MultiDependencyTest::testFour
-This test depends on "MultiDependencyTest::testThree" to pass.
+Reordering same class dependency function is not implemented. Please reorder "testThree" before "testFour".
 
 2) MultiDependencyTest::testThree
-This test depends on "MultiDependencyTest::testOne" to pass.
+Reordering same class dependency function is not implemented. Please reorder "testOne" before "testThree".
 
 OK, but incomplete, skipped, or risky tests!
 Tests: 5, Assertions: 3, Skipped: 2.
