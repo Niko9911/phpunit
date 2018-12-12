@@ -1830,6 +1830,8 @@ abstract class TestCase extends Assert implements Test, SelfDescribing
                                 0
                             );
                             $this->result->endTest($this, 0);
+
+                            return false;
                         }
                     } else {
                         $this->setSkippedDependsOn($dependency);
